@@ -92,6 +92,9 @@ Pin 3: VCC (Plus)
 - **Kein Empfang**: Interrupt-Pin prüfen (Pin 2), Antenne anschließen
 - **Schwacher Empfang**: Bessere Antenne verwenden (17,3 cm für 433 MHz)
 
+## Entwickler
+Martin Pfeffer, 2025
+
 ## Lizenz
 Dieses Projekt steht unter der MIT-Lizenz.
 
