@@ -1,5 +1,5 @@
 /*
- * Teufel Power HiFi IR-Code Scanner
+ * Universeller IR-Code Scanner
  * 
  * Dieses Programm liest IR-Codes von beliebigen Fernbedienungen
  * und zeigt sie im Serial Monitor an.
@@ -48,7 +48,7 @@ void setup() {
   IrReceiver.begin(IR_RECEIVE_PIN, ENABLE_LED_FEEDBACK);
   
   Serial.println("╔════════════════════════════════════════╗");
-  Serial.println("║   Teufel Power HiFi IR-Code Scanner    ║");
+  Serial.println("║     Universeller IR-Code Scanner       ║");
   Serial.println("╠════════════════════════════════════════╣");
   Serial.println("║ 1. Richte die Fernbedienung auf den    ║");
   Serial.println("║    VS1838B Empfänger                   ║");

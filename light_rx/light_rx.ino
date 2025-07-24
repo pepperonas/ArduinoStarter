@@ -25,7 +25,7 @@
 
 // Pin-Definition
 const int ldrPin = A0;         // LDR an analogem Pin A0
-const int threshold = 50;      // Schwellenwert für LED-Erkennung
+const int threshold = 50;      // Schwellenwert für Helligkeitserkennung
 
 void setup() {
   Serial.begin(9600);
@@ -39,9 +39,9 @@ void loop() {
   Serial.println(ldrValue);
 
   if (ldrValue < threshold) {
-    Serial.println("Box ist AUS (LED dunkel)");
+    Serial.println("Dunkel erkannt");
   } else {
-    Serial.println("Box ist AN (LED leuchtet)");
+    Serial.println("Hell erkannt");
   }
 
   delay(1000);  // 1 Sekunde warten

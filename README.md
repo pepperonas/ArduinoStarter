@@ -5,7 +5,7 @@ Dieses Repository enthält verschiedene Arduino-Projekte für Sensoren und Empf�
 ## Projektübersicht
 
 ### 1. IR-RX (Infrarot-Empfänger)
-Ein IR-Code Scanner für die Teufel Power HiFi Fernbedienung oder andere IR-Fernbedienungen.
+Ein universeller IR-Code Scanner für beliebige IR-Fernbedienungen.
 
 **Features:**
 - Empfängt und decodiert IR-Signale von beliebigen Fernbedienungen
@@ -25,7 +25,7 @@ Ein IR-Code Scanner für die Teufel Power HiFi Fernbedienung oder andere IR-Fern
 5. Codes notieren für spätere Verwendung
 
 ### 2. RF-RX (433 MHz Funkempfänger)
-Ein Empfänger für 433 MHz Funksignale, z.B. von Funksteckdosen oder Garagentoröffnern.
+Ein universeller Empfänger für 433 MHz Funksignale verschiedener Geräte.
 
 **Features:**
 - Empfängt 433 MHz Funksignale
@@ -45,11 +45,11 @@ Ein Empfänger für 433 MHz Funksignale, z.B. von Funksteckdosen oder Garagentor
 5. Funksender betätigen und Codes ablesen
 
 ### 3. Light-RX (Lichtsensor / LDR)
-Ein Lichtsensor zur Erkennung von LED-Status oder Umgebungslicht.
+Ein Lichtsensor zur Messung von Umgebungslicht und Helligkeitsänderungen.
 
 **Features:**
 - Misst Lichtstärke mit einem LDR (Light Dependent Resistor)
-- Erkennt LED-Zustände (an/aus)
+- Erkennt Helligkeitsänderungen und Lichtzustände
 - Einstellbarer Schwellenwert für Lichtdetektion
 - Analogwerte von 0 (dunkel) bis 1023 (sehr hell)
 
